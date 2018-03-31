@@ -30,9 +30,9 @@ defmodule Fluent.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:socket, "~> 0.2.0"},
-      {:poison, "~> 1.3.0"},
-      {:msgpax, "~> 0.6.0"},
+      {:socket, "~> 0.3.0"},
+      {:poison, "~> 3.0"},
+      {:msgpax, "~> 0.8.0"},
       {:porcelain, "~> 2.0.0", only: :test},
     ]
   end
